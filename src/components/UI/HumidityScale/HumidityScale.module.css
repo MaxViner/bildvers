@@ -1,0 +1,31 @@
+.humidityScale {
+    width: 84.35%;
+    background-color: var(--disaibled-main);
+    border-radius: 10px;
+    height: 11px;
+    font-family: Rubik;
+  }
+  
+  .scale {
+    height: 20px;
+    transition: 0.5s ease-out;
+    background-color: #EC6E4D;
+    border-radius: 10px;
+    height: 11px;
+
+  }
+  .percentageLabel {
+    width: 84.35%;
+    text-align: right;
+  }
+  .labelContainer {
+    width: 84.35%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+    
+  }
+  
+  .label {
+    font-weight: bold;
+  }

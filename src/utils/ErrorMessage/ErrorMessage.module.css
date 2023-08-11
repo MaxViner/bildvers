@@ -1,0 +1,14 @@
+.errorMessage {
+    display: flex;
+    justify-content: space-between;
+    z-index: 100000;
+    position: sticky;
+    bottom: 30px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: var(--icon-bg);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-main);
+  }

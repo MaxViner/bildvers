@@ -1,0 +1,84 @@
+*{
+  transition: 0.5s ease-out;
+}
+.sideBar{
+    background-color: var(--bg-main);
+    position: relative;
+    max-width: 461px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../../assets/img/sideBarImg/Bg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: difference;
+    transition: margin-left 0.5s ease-out;
+}
+
+
+@media screen and (max-width:1440px) {
+    .sideBar{
+        height: 100%;
+    }
+    .weatherCard{
+        height: 100%;
+        width: 100%;
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 32px;
+    }
+    .serchButton{
+        margin-top: 51px;
+        margin-left: 27px;
+    }
+    .searchWrapper {
+        margin-left: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .searchPanelContent{
+        height: 116px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #submitBtn{
+        height: 50px; 
+        padding: 10px;
+        margin: 0 auto;
+      }
+      .closeButton {
+        top: 59px;
+        left: 83.8%;
+        }
+        #searchInput{
+            width: 83%;
+        }
+        #searchIcon{
+            z-index: 1001;
+            margin-left: 7%;
+        } 
+          #themeToggle{
+            top: 51px; 
+            left: 76%;
+        }
+  }
+  @media screen and (max-width:839px) {
+    .sideBar{
+        max-width: unset;
+        padding: 0;
+        margin-left: 0 ;
+        width: 100vw;
+    }
+  }

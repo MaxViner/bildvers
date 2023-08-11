@@ -1,0 +1,78 @@
+.btn-default{
+    background: transparent; 
+    color: var(--text-main);
+    font-family: Rubik;
+    font-size: 18px;
+    border: 2px solid var(--disaibled-main);
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-default:hover{
+    transform: scale(1.05);
+}
+.btn-search{
+    position: absolute;
+    width: 180px;
+    top: 42px;
+    left: 9%;
+    height: 50px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    cursor: pointer;
+}
+.btn-close {
+    border: none;
+    color: var(--disaibled-secondary);
+}
+.btn-submit{
+    width: 97px;
+    height: 50px;
+    font-weight: 700;
+    letter-spacing: 0em;
+}
+
+@media screen and (max-width:1440px) {
+    .serchButton{
+        
+        margin-top: 51px;
+        margin-left: 27px;
+    }
+      .submitBtn{
+        height: 50px; 
+        padding: 10px;
+        margin: 0 auto;
+      }
+      .closeButton {
+        top: 59px;
+        left: 83.8%;
+        }
+        .searchIcon{
+            z-index: 1001;
+            margin-left: 7%;
+        } 
+          .themeToggle{
+            top: 51px; 
+            left: 76%;
+        }
+  }
+  @media screen and (max-width:839px) {
+   
+    .serchButton{
+        margin-top: 41px;
+        margin-left: 30px;
+    }
+
+    .submitBtn{
+        height: 50px; 
+        padding: 10px;
+        margin-left: 35%;
+    }
+    .closeButton {
+        top: 40px;
+        left: 87%;
+    }
+
+  }

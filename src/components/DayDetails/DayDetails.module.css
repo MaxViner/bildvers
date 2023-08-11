@@ -1,0 +1,67 @@
+/* ============ПОДРОБНОСТИ НА СЕГОДНЯ=========== */
+*{
+  transition: 0.55s ease-out;
+}
+.DayWrapper{
+  width: 62.5%;
+  width: 100%;
+}
+.dayDetailsList{
+
+    max-width: 720px;
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "card1 card2"
+        "card3 card4";
+      column-gap: 11%;
+      row-gap: 18px;
+      justify-content: flex-start;
+      list-style: none;
+      padding: 0;
+  }
+  
+  .dayDetailsTitle {
+    grid-area: header;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: none;
+    color: var(--text-main);
+  }
+    @media screen and (max-width:1440px) {
+        .DayWrapper{
+          max-width: 320px;
+          width: 84%;
+        }
+        .dayDetailsTitle {
+          margin-top: 42px;
+          margin-bottom: 25px;
+        }
+      
+        .dayDetailsList{
+          display: flex;
+          height: max-content;
+          flex-direction: column;
+          gap: 27px;
+          justify-content: flex-start;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          
+      }
+      
+    }
+      @media screen and (max-width:839px) {
+        .DayWrapper{
+          margin-top: 59px;
+          max-width: unset;
+          margin-left: 8%;
+          margin-right: 8%;
+          width: 84%;
+        }
+        
+      }
